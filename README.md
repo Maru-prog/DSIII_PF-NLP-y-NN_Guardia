@@ -12,7 +12,7 @@ Se desarrolló un modelo de procesamiento de lenguaje natural (NLP) para clasifi
 - Se evaluaron métricas como **accuracy, precision, recall y f1-score**.
 - Se concluyó que el modelo Passive-Aggressive tuvo mejor rendimiento para el objetivo del ejercicio.
 
-El código se encuentra en el notebook: `NLP_Entrega Final_Fake News_Guardia Maria Eugenia`.
+El código se encuentra en el notebook: NLP_Entrega Final_Fake News_Guardia Maria Eugenia.
 
 ## Ejercicio 2: Clasificación de imágenes con Redes Neuronales (Fashion MNIST)
 
@@ -21,9 +21,9 @@ Se desarrolló un modelo de red neuronal para clasificar imágenes de prendas de
 - Se entrenaron y compararon dos modelos secuenciales:
   - **Modelo Sencillo**: tres capas densas (512, 256 y 128 neuronas).
   - **Modelo Mejorado**: misma base que el modelo sencillo + dos capas adicionales (64 y 32 neuronas).
-- Ambos modelos utilizaron `ReLU` como activación interna y `softmax` en la capa de salida.
-- Se entrenaron durante 5 épocas usando `adam` como optimizador y `sparse_categorical_crossentropy` como función de pérdida.
+- Ambos modelos utilizaron ReLU como activación interna y softmax en la capa de salida.
+- Se entrenaron durante 5 épocas usando adam como optimizador y sparse_categorical_crossentropy como función de pérdida.
 - Se compararon métricas como **accuracy final, mejor val_accuracy y mejor val_loss**.
 - Se concluyó que el modelo mejorado tuvo un rendimiento **ligeramente superior**, sin presentar señales de sobreajuste.
 
-El código se encuentra en el notebook: `NN_Entrega Final_Fashion MNIST_Maria Eugenia Guardia`.
+El código se encuentra en el notebook: NN_Entrega Final_Fashion MNIST_Maria Eugenia Guardia.
